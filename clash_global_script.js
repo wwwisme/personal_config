@@ -362,7 +362,9 @@ function main(config, profileName) {
   K('microsoft', 'Microsoft');
 
   // 系统更新 / Apple 直连
-  ['update.microsoft.com', 'windowsupdate.com', 'download.microsoft.com', 'herdr.dev', 'godotengine.org', 'your-objectstorage.com'].forEach(function (d) { P(d, 'DIRECT'); });
+  ['update.microsoft.com', 'windowsupdate.com', 'download.microsoft.com', 
+   'herdr.dev', 'godotengine.org', 'your-objectstorage.com', 'workbuddy.ai'
+  ].forEach(function (d) { P(d, 'DIRECT'); });
   ['apple.com', 'icloud.com', 'me.com', 'appsto.re', 'mzstatic.com', 'itunes.apple.com', 'push.apple.com'].forEach(function (d) { P(d, 'DIRECT'); });
   K('apple', 'DIRECT'); K('icloud', 'DIRECT');
 
