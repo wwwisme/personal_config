@@ -347,7 +347,7 @@ function main(config, profileName) {
   P('youtu.be', 'Streaming'); K('youtube', 'Streaming'); K('google', 'Google');
 
   // OpenAI / Claude
-  P('chatgpt.com', 'OpenAI'); P('openai.com', 'OpenAI'); P('oaistatic.com', 'OpenAI'); P('oaiusercontent.com', 'OpenAI'); K('openai', 'OpenAI');
+  P('chatgpt.com', 'OpenAI'); P('openai.com', 'OpenAI'); P('oaistatic.com', 'OpenAI'); P('oaiusercontent.com', 'OpenAI'); K('openai', 'OpenAI'); P('muse.ai', 'OpenAI');
   P('claude.ai', 'Claude'); P('anthropic.com', 'Claude'); P('claude.com', 'Claude'); P('claudeusercontent.com', 'Claude'); K('claude', 'Claude');
 
   // 其它 AI / 学术 -> AI 分组
